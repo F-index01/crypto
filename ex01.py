@@ -30,9 +30,9 @@ def main():
     valeurs_n = [4, 8, 12]
 
     for n in valeurs_n:
-        print(f"\n🔍 Recherche de {essais} nonces pour N = {n} bits à 0...")
+        print(f"\n Recherche de {essais} nonces pour N = {n} bits à 0...")
         nonces = chercher_nonces(message, n, essais)
-        print(f"✅ Nonces trouvés pour N = {n} : {nonces}")
+        print(f" Nonces trouvés pour N = {n} : {nonces}")
 
 if __name__ == "__main__":
     main()
