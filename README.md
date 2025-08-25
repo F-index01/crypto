@@ -1,9 +1,16 @@
+ Ecrire une fonction (f1) qui calcule le haché SHA-256 d’un message
+▌ Ecrire une fonction (f2) qui étend la fonction précédente en prenant un “nonce” de 32 bits en paramètre,
+ce nonce étant concaténé à la suite du message avant de hacher le résultat
+▌ Ecrire une fonction (f3) qui étend la fonction précédente en prenant une valeur N en paramètre et qui
+recherche un nonce produisant un haché dont les N bits de poids fort sont tous égaux à 0
+▌ Exécuter la fonction f3 au moins 10 fois avec les valeurs N=4, 8 et 12 pour un même message, avec un
+nonce évoluant de façon incrémentale à partir de 0
 ▌Écrire une fonction qui génère une paire de clé asymétrique RSA de 2048 bits (clé publique 
 Pub1 + clé privée Priv1)
 
  ▌Écrire une fonction qui prend un message en entrée et qui produit une signature de ce 
 message
-
+*******************************************************************************************************
  ▌Écrire un petit programme qui enchaîne les fonctions suivantes
  
  ▪ Etape 1
